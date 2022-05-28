@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Operators</title>
+</head>
+<body>
+    <script>
+        var a = 10;
+        var b = 12;
+
+        document.write("is equal " + (a==b));
+        document.write("<br>" + "not eual " + (a!=b));
+        document.write("<br>" + "is bigger or euql " + (a>=b));
+        document.write("<br>" + "smaller or equal " + (a<=b));
+        document.write("<br>" + "is bigger " + (a>b));
+        document.write("<br>" + "is smaller " + (a<b));
+        document.write("<br>" + "is strictly equal " + (a===b));
+        document.write("<br>" + "is stricly not equal " + (a!==b));
+
+        // Increament op
+        var n1 = 10
+        var n2 = 13
+        document.write("<br>" + "Pre increment" + n1++)
+        document.write("<br>" + "Post increment" + --n2 + "<br>")
+        
+        // Logical op
+        var name = "Hassan"
+        var age = 25
+        
+        document.write((name=="Hassan" && age==23)+"<br>");
+        document.write((name=="Ali" || age==25)+"<br>")
+        document.write(!(name=="Hassan")+"<br>");
+
+        // assignment op
+        var n1 = 10;
+        var n2 = 15;
+        var res = n1+n2;
+        n1 += n2
+        document.write((n1)+"<br>");
+
+  
+    </script>
+</body>
+</html>
